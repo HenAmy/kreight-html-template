@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/kreight-favicon.png"
+    />
+    <script src="js/script.js" defer></script>
+    <title>Sign In</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="p-3 z-10 lg:hidden shadow-lg sticky top-0 bg-white">
+      <div class="flex items-center justify-between container mx-auto space-x-20 font-mainFont">
+        <div class="z-30">
+          <img src="./images/logo-primary.svg" alt="" id="logo" class="w-32 md:w-40"/>
+        </div>
+        <div class="hidden items-center space-x-10 text-text lg:flex">
+          <a href="#home" class="tracking-widest hover:text-softRed"
+              >Home</a
+            >
+          <a href="#features" class="tracking-widest hover:text-softRed"
+              >Features</a
+            >
+          <a href="#testimonials" class="tracking-widest hover:text-softRed"
+              >Testimonials</a
+            >
+          <a href="#contacts" class="tracking-widest hover:text-softRed"
+              >Contact</a
+            >
+      </div>
+      <div class="hidden lg:flex">
+        <button class="px-10 py-2 text-text bg-white rounded-md focus:outline-none md:py-2 font-mainFont text-[18px]">
+          Sign In
+        </button>
+        <button class="px-8 py-8 text-white bg-secondary rounded-md focus:outline-none md:py-4 font-mainFont text-[18px]">
+          Get Started
+        </button>
+      </div>
+      <!-- Hamburger -->
+      <button
+          id="menu-btn"
+          class="z-30 block lg:hidden focus:outline-none hamburger"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="fixed inset-0 z-10 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white bg-secondary"
+      >
+        <div class="w-full py-3 text-center font-mainFont text-[]">
+          <a href="#features" class="block hover:text-softRed">Home</a>
+        </div>
+        <div class="w-full py-4 text-center">
+          <a href="#download" class="block hover:text-softRed">Features</a>
+        </div>
+        <div class="w-full py-4 text-center">
+          <a href="#faq" class="block hover:text-softRed">Testimonials</a>
+        </div>
+        <div class="w-full py-4 text-center">
+          <a href="#" class="block hover:text-softRed">Contact</a>
+        </div>
+        <div class="flex p-6">
+          <button class="px-5 py-2 text-text bg-white rounded-md focus:outline-none md:py-2 font-mainFont text-[18px]">
+            Sign In
+          </button>
+          <button class="px-6 py-2 text-white bg-secondary rounded-md focus:outline-none md:py-4 font-mainFont text-[18px]">
+            Sign In
+          </button>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="p-2 bg-primary md:hidden flex"></div>
+    
+    <div class="flex flex-col mx-auto md:flex-row md:space-x-10">
+              <!-- Content -->
+      <div class="flex flex-col md:w-1/2 p-8 justify-center space-y-10">
+        <div class="space-x-1 justify-between mb-10 flex">
+          <img src="./images/logo-primary.svg" alt="" class="w-[160px] lg:flex hidden" />
+          <p class="font-mainFont">
+            New member? <span class="font-bold">Sign Up</span>
+          </p>
+        </div>
+
+        <div class="space-y-8">
+          <h5 class="text-3xl font-bold text-left text-text font-mainFont">
+            Sign In
+          </h5>
+        </div>
+        <div class="flex flex-col space-y-16">
+          <div class="space-y-7">
+            
+            <div class="flex flex-col space-y-1">
+              <label
+                for="emailaddress"
+                class="font-mainFont font-bold text-[14px]"
+                >Email Address:</label
+              >
+              <input
+                type="email"
+                class="flex-1 rounded-md w-full placeholder-placeholder bg-background px-4 py-3 focus:outline-none font-mainFont text-[14px]"
+                placeholder="Enter email address"
+                id="emailaddress"
+              />
+            </div>
+            <div class="flex flex-col space-y-1">
+              <label for="password" class="font-mainFont font-bold text-[14px]"
+                >Password:</label
+              >
+              <input
+                type="password"
+                class="flex-1 rounded-md w-full placeholder-placeholder bg-background px-4 py-2 focus:outline-none font-mainFont text-[14px]"
+                placeholder="Enter password"
+                id="password"
+              />
+            </div>
+            
+          </div>
+        <div class="flex flex-col space-y-3">
+            <button
+            class="px-3 py-3 text-white bg-secondary rounded-md focus:outline-none font-mainFont text-[16px]"
+          >
+            Sign In
+          </button>
+          <p class="font-mainFont mx-auto">
+            Forgot Password?
+          </p>                
+        </div>
+        </div>
+
+      </div>
+
+      <!-- Image -->
+      <div
+        class="sticky top-0 md:w-1/2 h-screen bg-primary md:flex items-center justify-center hidden"
+      >
+        <img class="p-32" src="./images/icons-group.png" alt="" />
+      </div>
+
+    </div>
+  </body>
+</html>

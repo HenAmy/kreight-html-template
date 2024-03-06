@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <g id="icon-user" transform="translate(-1582 -385)">
+    <circle id="Ellipse_120" data-name="Ellipse 120" cx="47" cy="47" r="47" transform="translate(1582 385)" fill="#fff"/>
+    <g id="SolarUserBroken" transform="translate(1608.741 409.516)">
+      <circle id="Ellipse_123" data-name="Ellipse 123" cx="8" cy="8" r="8" transform="translate(12.259 2.323)" fill="rgba(0,0,0,0)" stroke="#000" stroke-width="2.5"/>
+      <path id="Path_985" data-name="Path 985" d="M36.513,23.162c0-.333,0-.673,0-1.016,0-5.05-7.28-9.145-16.259-9.145S4,17.1,4,22.145s0,9.145,16.259,9.145A44.888,44.888,0,0,0,30.42,30.4" transform="translate(0 11.356)" fill="rgba(0,0,0,0)" stroke="#000" stroke-linecap="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

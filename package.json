@@ -1,0 +1,21 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/css/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.0.15",
+    "react-aria-components": "^1.1.1",
+    "react-calendar": "^4.8.0"
+  }
+}

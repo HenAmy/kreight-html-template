@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/kreight-favicon.png"
+    />
+    <!-- <script src="js/script.js" defer></script> -->
+    <title>Booking Link Details</title>
+  </head>
+  <body>
+    <div class="flex">
+      <!-- Main Container -->
+      <div
+        class="flex flex-col lg:w-full px-5 py-5 lg:px-20 lg:py-10 font-mainFont"
+      >
+        <!-- Header -->
+        <div class="space-y-16 mb-14">
+          <img class="mx-auto" src="./images/logo-primary.svg" alt="" />
+          <div class="lg:flex items-start space-x-5">
+            <img src="./images/image-dp.svg" alt="" />
+            <div class="space-y-3">
+              <h3 class="text-3xl lg:text-5xl font-bold">Jema Photography</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="lg:flex space-x-10">
+          <!-- Left Side -->
+          <div class="lg:w-3/5 rounded-xl">
+            <div class="flex flex-col space-y-10">
+              <!-- Schedule -->
+              <div class="border rounded-md bg-white px-8">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center space-x-4 py-4">
+                    <img class="w-10" src="./images/icon-checkbox.svg" alt="" />
+
+                    <p class="text-xl font-bold text-text">Your Details</p>
+                  </div>
+                  <p class="font-bold text-xl text-primary">5th January 2024</p>
+                </div>
+              </div>
+
+              <!-- Your details -->
+              <div class="border-2 border-primary rounded-md px-8 pb-6">
+                <div class="flex justify-between items-center mb-8">
+                  <div class="flex items-center space-x-4 py-4">
+                    <div
+                      class="border-4 border-gray font-bold rounded-3xl w-fit h-fit px-3 py-1"
+                    >
+                      <p class="text-xl">2</p>
+                    </div>
+                    <p class="text-xl font-bold">Your Details</p>
+                  </div>
+                  <!-- <p class="font-bold text-xl text-text">5th January, 2024</p> -->
+                </div>
+                <div class="space-y-6">
+                  <!-- Full Name -->
+                  <div class="flex flex-col space-y-1">
+                    <label for="fullname" class="font-bold text-[14px]"
+                      >Full Name</label
+                    >
+                    <input
+                      type="password"
+                      class="flex-1 rounded-md w-full placeholder-placeholder bg-background px-4 py-2 focus:outline-none font-mainFont text-[14px]"
+                      placeholder="Enter your full name"
+                      id="fullname"
+                    />
+                  </div>
+
+                  <!-- Email Address -->
+                  <div class="flex flex-col space-y-1">
+                    <label for="email" class="font-bold text-[14px]"
+                      >Email Address</label
+                    >
+                    <input
+                      type="email"
+                      class="flex-1 rounded-md w-full placeholder-placeholder bg-background px-4 py-2 focus:outline-none text-[14px]"
+                      placeholder="Enter your email address"
+                      id="email"
+                    />
+                  </div>
+
+                  <!-- Call Number -->
+                  <div class="flex flex-col space-y-1">
+                    <label for="call" class="font-bold text-[14px]"
+                      >Call Number</label
+                    >
+                    <input
+                      type="tel"
+                      class="flex-1 rounded-md w-full placeholder-placeholder bg-background px-4 py-2 focus:outline-none text-[14px]"
+                      placeholder="Enter your call number"
+                      id="call"
+                    />
+                  </div>
+
+                  <!-- WhatsApp Number -->
+                  <div class="flex flex-col space-y-1">
+                    <label for="whatsapp" class="font-bold text-[14px]"
+                      >WhatsApp Number</label
+                    >
+                    <input
+                      type="tel"
+                      class="flex-1 rounded-md w-full placeholder-placeholder bg-background px-4 py-2 focus:outline-none text-[14px]"
+                      placeholder="Enter your whatsApp number"
+                      id="whatsapp"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side -->
+          <div class="lg:w-2/5 bg-slate-200 rounded-xl p-6 space-y-10 h-fit">
+            <!-- Your choices -->
+            <div class="flex items-center space-x-4">
+              <div
+                class="border-4 border-gray font-bold rounded-3xl w-fit h-fit px-3 py-1"
+              >
+                <p class="text-xl text-gray">3</p>
+              </div>
+              <p class="text-xl font-bold">Your Choices</p>
+            </div>
+            <!-- <h5 class="text-xl font-semibold">Your Choices</h5> -->
+            <div class="space-y-5 h-96">
+              <!-- Date -->
+              <!-- <div>
+                <p class="font-bold">Date</p>
+                <p>5th January 2024</p>
+              </div> -->
+
+              <!-- Timeslots -->
+              <!-- <div>
+                <p class="font-bold">Timeslots</p>
+                <div class="flex space-x-2">
+                  <div
+                    class="py-1 px-3 border font-mainFont font-medium text-[14px] rounded-2xl flex justify-center bg-white border-placeholder"
+                  >
+                    12:00 PM
+                  </div>
+                  <div
+                    class="py-1 px-3 border font-mainFont font-medium text-[14px] rounded-2xl flex justify-center bg-white border-placeholder"
+                  >
+                    12:00 PM
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- Name -->
+              <!-- <div>
+                <p class="font-bold">Full Name</p>
+                <p>Maame Acheampong</p>
+              </div> -->
+
+              <!-- Call -->
+              <!-- <div>
+                <p class="font-bold">Call Number</p>
+                <p>0505896324</p>
+              </div> -->
+
+              <!-- WhatsApp -->
+              <!-- <div>
+                <p class="font-bold">WhatsApp Number</p>
+                <p>0505896324</p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
