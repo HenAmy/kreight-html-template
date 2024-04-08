@@ -1,0 +1,8 @@
+<svg id="calendar-check-light-white" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect id="Rectangle_783" data-name="Rectangle 783" width="256" height="256" fill="none"/>
+  <rect id="Rectangle_784" data-name="Rectangle 784" width="176" height="176" rx="8" transform="translate(40 40)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line id="Line_81" data-name="Line 81" y2="32" transform="translate(176 24)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line id="Line_82" data-name="Line 82" y2="32" transform="translate(80 24)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <line id="Line_83" data-name="Line 83" x2="176" transform="translate(40 88)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path id="Path_874" data-name="Path 874" d="M92,152l24,24,48-48" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+</svg>
